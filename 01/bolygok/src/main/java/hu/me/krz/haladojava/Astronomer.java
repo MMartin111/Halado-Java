@@ -9,19 +9,11 @@ public class Astronomer {
 	
 	private List<Planet> DiscoveredPlanets;
 	
-	public Astronomer(String name, List<Planet> DiscoveredPlanets) {
-		super();
+	public Astronomer(String name) {
 		this.name = name;
-		this.DiscoveredPlanets = DiscoveredPlanets;
 	}
 	
 	public List<Planet> getDiscoveredPlanets() {
 		return DiscoveredPlanets;
-	}
-	
-	public void observeTheSky() {
-		Random rand = new Random();
-		
-		
 	}
 }

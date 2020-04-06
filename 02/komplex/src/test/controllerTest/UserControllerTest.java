@@ -1,4 +1,4 @@
-package controllerTests;
+package controllerTest;
 
 import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.Mockito.mock;
